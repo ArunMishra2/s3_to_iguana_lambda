@@ -6,7 +6,7 @@ This AWS Lambda function is triggered by an S3 `PUT` event. It reads the HL7 fil
 - `IGUANA_ENDPOINT`: Full HTTPS URL of your Iguana SaaS endpoint.
 - `IGUANA_API_KEY`: (Optional) API key header for Iguana authentication.
 
-## 🧪 Event Format
+## Event Format
 Triggered via S3 PUT:
 ```
 {
